@@ -21,8 +21,8 @@
                     "createdAt": "2023-09-10T22:52:07.886Z",
                     "updatedAt": "2023-09-10T22:52:07.886Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f9cf339e12064e1b02d152/projects/64fe40350473c1f20e3d7e3f/assets/64fe4897ef8d2b49eb965343?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20230914%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230914T142726Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=43eea5c53942768bb8b32a54fd4b510aa602a4220ae0010f000d9678e4d6cdfc2b57ba82fe7285c01d94847c145a6b5e5eb380dd033054df676795aa31a4c74cedcab286704d6000b5b371d4b36f28b49b9a9d4650489dd1f41e493b6addc2adbfe23fa11f584ea0a2712586cfe2246233820364039e6acd82a21da6d54a7578021f1c9e9c977cff6829b795f17f31a47c5eaa10ac6a6a5b2072c6fcb839f99b0c9bacc6d9d7bf9028163cc969755be997d59439922ae6a888c0245524a420ee999c7f37f6b8746ead1d396e72ee089834a1fe6197821b3aad6ca64b00b0f8e5b2613cc7ce64f5d022557ee42c9f45e5c2d8d76c03feb7278cc4c742e15e345a",
-                    "signedUrlExpirationTime": 1694874446299
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f9cf339e12064e1b02d152/projects/64fe40350473c1f20e3d7e3f/assets/64fe4897ef8d2b49eb965343?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20230919%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230919T021511Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=aba52f714f51604ecd14c13744365ee6d99f377fbfb6e607a8d180d1da24f7438281fbf2c26cc165c5d34ed30bb147615c8c9b031c61424b9f1868f498e2757fca134855b6705d394f38a0c86197db48a948841f0fb3debc68fac4942a9b9ae526677c4f4ca02945870b0a0a6daf8a90267d4ddff9619638b6e724ce9d53338c3a902c095258ed31b217d41e1a921fbc0d90fa96e597ef528ed1e900585f7084d6ada7a6b52f003e741b8c9e4b87e5001e9c81073135b022541481737abd539abbd6fb98f1dfdda37607d0bc89c0d0f4624383e3c2a47e0a9529d9112b9142e6966223dee99a147ccdd21d78ef6238b426d347c4e0942b20ffa953934821d00c",
+                    "signedUrlExpirationTime": 1695262511811
                 }
             },
             "backendUpgradeVersion": 21,
@@ -35,14 +35,14 @@
                         ],
                         "ios": [
                             {
-                                "name": "NSCameraUsageDescription",
-                                "label": "Camera",
-                                "hint": "Describe why your app uses the camera."
-                            },
-                            {
                                 "name": "NSPhotoLibraryUsageDescription",
                                 "label": "Photos",
                                 "hint": "Describe why your app uses photos."
+                            },
+                            {
+                                "name": "NSCameraUsageDescription",
+                                "label": "Camera",
+                                "hint": "Describe why your app uses the camera."
                             }
                         ]
                     }
@@ -81,7 +81,7 @@
             "figmaComponents": {},
             "description": null,
             "icon": null,
-            "projectName": "Camera App",
+            "projectName": "Camera App New",
             "settings": {
                 "teamId": null,
                 "appName": null,
@@ -189,10 +189,16 @@
             "customProperties": [],
             "modules": [],
             "usesDragDropUi": true,
-            "totalCopy": "1",
+            "totalCopy": "0",
             "totalStar": "0",
             "starAction": "star",
-            "variables": {},
+            "variables": {
+                "dfee8d92-edab-4a22-8734-06c074c7e878": {
+                    "scope": "APP",
+                    "name": "voice",
+                    "screenId": "9e0c7518-d95c-42a9-bf75-d43e0a01e8e8"
+                }
+            },
             "defaultDesignerDevice": "PHONE",
             "defaultDesignerOrientation": "PORTRAIT",
             "schemaVersion": 2,
